@@ -1,3 +1,3 @@
-# team-99
+# Team-99
 
-### Repo of team-99
+### Repo of Team-99
