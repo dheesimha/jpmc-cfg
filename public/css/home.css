@@ -64,7 +64,6 @@
   }
   .nav-links > button: hover {
     background-color: #4d4d4d; 
-    color: #fff;
   }
   
   @media (max-width:600px) {
