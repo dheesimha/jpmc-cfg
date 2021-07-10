@@ -3,11 +3,11 @@ body {
 }
 
 .container {
-  /* border: 3px solid yellow; */
+  border: 1px solid whitesmoke;
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 300px;
-  margin: 0 auto;
+  margin: 80px auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -18,8 +18,26 @@ body {
 .canvas {
   position: absolute;
   top: 0;
+  /* display: none; */
 }
 
 .form {
   padding: 20px;
+}
+
+/* button a {
+  text-decoration: none;
+} */
+
+/* .submit-btn {
+  cursor: pointer !important;
+} */
+
+.btn {
+  cursor: pointer !important;
+}
+
+button a {
+  text-decoration: none;
+  outline: none;
 }
