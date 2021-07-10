@@ -2,57 +2,57 @@
 let questions = [
     {
         numb: 1,
-        question: "What does HTML stand for?",
-        answer: "Hyper Text Markup Language",
+        question: "The correct surgical procedure as a contraceptive method is:",
+        answer: "Vasectomy",
         options: [
-            "Hyper Text Preprocessor",
-            "Hyper Text Markup Language",
-            "Hyper Text Multiple Language",
-            "Hyper Tool Multi Language"
+            "Ovariectomy",
+            "Hysterectomy",
+            "Vasectomy",
+            "Castration"
         ]
     },
     {
         numb: 2,
-        question: "What does CSS stand for?",
-        answer: "Cascading Style Sheet",
+        question: "What is the full form of STD",
+        answer: "Sexually Transmitted Disease",
         options: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "Sexually Transmitted Disease",
+            "Single Traversal Disease",
+            "Sexually Treated Duct",
+            "Severly Treated Disease"
         ]
     },
     {
         numb: 3,
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "Which of the following hormones are involved in the development of the secondary sex characteristics in males?",
+        answer: "testosterone",
         options: [
-            "Hypertext Preprocessor",
-            "Hypertext Programming",
-            "Hypertext Preprogramming",
-            "Hometext Preprocessor"
+            "estrogen",
+            "serotonin",
+            "testosterone",
+            "follicle stimulating"
         ]
     },
     {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "Egg are formed in the",
+        answer: "Ovary",
         options: [
-            "Stylish Question Language",
-            "Stylesheet Query Language",
-            "Statement Question Language",
-            "Structured Query Language"
+            "Fallopian tube",
+            "Uterus",
+            "Ovary",
+            "Embryo"
         ]
     },
     {
         numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "Which of the following is a symptom of AIDS?",
+        answer: "All of the above",
         options: [
-            "eXtensible Markup Language",
-            "eXecutable Multiple Language",
-            "eXTra Multi-Program Language",
-            "eXamine Multiple Language"
+            "Fever",
+            "Swollen lymph nodes",
+            "Tiredness",
+            "All of the above"
         ]
     },
     // you can uncomment the below codes and make duplicate as more as you want to add question
