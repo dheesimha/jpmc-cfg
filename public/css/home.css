@@ -62,9 +62,7 @@
       width: 4em;
       border: 0px;
   }
-  .nav-links > button: hover {
-    background-color: #4d4d4d; 
-  }
+ 
   
   @media (max-width:600px) {
     .nav > .nav-btn {
