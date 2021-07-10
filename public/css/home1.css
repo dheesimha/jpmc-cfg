@@ -124,3 +124,9 @@ nav .menu a:first-child{
     color: #00b894;
     transition: 0.5s;
 }
+.footer-text{
+    font-size: 1em;
+}
+.contact{
+    font-size: 2em;
+}
