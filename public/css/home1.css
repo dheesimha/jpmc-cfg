@@ -98,20 +98,34 @@ section .btntwo:hover{
 nav .menu a:first-child{
     color: #00b894;
 }
-.change_content:after{
+.change_content1:after{
     content: '';
     animation: changetext 5s infinite linear;
+    color: #b80000;
+}
+
+.change_content2:after{
+    content: '';
+    animation: changetextf 5s infinite linear;
     color: #00b894;
 }
-#facts{
-    color: red;
-}
+
 @keyframes changetext{
-    0%{content: "Dargeeling";}
-    25%{content: "Agra";}
-    50%{content: "Kerala";}
-    75%{content: "Kerala";}
-    100%{content: "Kerala";}
+    0%{content: "Menstruation is Dirty and Impure";}
+    25%{content: "Condoms are only for men";}
+    50%{content: "STIs can only be transmitted when symptoms are present";}
+    75%{content: "You can get an STI from sitting on a toilet seat";}
+    100%{content: "Women can’t get pregnant on your period";}
+}
+@keyframes changetextf{
+    0%{content: "Menstruation is ovulation that results in bleeding, a totally natural process";}
+    25%{content: "Female condom are also available and can be inserted hours before intercourse";}
+    50%{content: "Many STIs may not have symptoms but can be damaging to your body and spread to sexual partners";}
+    75%{content: "STIs are transmitted through sexual intercourse, close intimate contact, or the exchange of bodily fluids.";}
+    100%{content: "Women can get pregnant during their period, but it is unlikely.";}
+}
+#facts{
+    color: rgb(250, 246, 246);
 }
 .logo img{
     text-decoration: none;
