@@ -110,4 +110,9 @@
         isDrawing = false;
     }
 
+
+    // document.getElementsByClassName("canvas").addEventListener("click", () => {
+    //     canvas.style.display = "none"
+    // })
+
 })();
