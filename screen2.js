@@ -116,3 +116,23 @@
     // })
 
 })();
+
+image=document.getElementById("image");
+// image.addEventListener("dblclick",visi);
+button=document.getElementById("btn");
+console.log(image);
+console.log(button);
+// function visi()
+// {
+//     button.style.display="visible";
+//     console.log(button);
+// }
+visi();
+function visi()
+{
+    
+setTimeout(function(){ 
+    button.style.display="initial";
+    console.log(button);
+  }, 3000);
+}
