@@ -60,10 +60,42 @@
       color: black;
       font-size: 1em;
       width: 4em;
+      height: 2em;
+
       border: 0px;
+      display: inline;
+ }
+  .himage{
+      width: 120vh;
+      height: 70vh;
   }
- 
-  
+  .flex-container{
+    display: flex;
+  }
+  .anim{
+      background-color: #4d4d4d;
+      color: white;
+      margin: 3em;
+      padding: 2em;
+      animation: 2s slide-left;
+}
+.start{
+    margin-top: 1em;
+}
+.flex2{
+    display: flex;
+    margin: 3em;
+    padding: 2em;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 6%;
+  }
+}
+
   @media (max-width:600px) {
     .nav > .nav-btn {
       display: inline-block;
