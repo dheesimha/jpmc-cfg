@@ -70,6 +70,13 @@ const userSchema = new mongoose.Schema({
 
     },
 
+    question: {
+        type: [String]
+    },
+
+    answer: {
+        type: [String]
+    }
 
 });
 
@@ -182,10 +189,28 @@ app.route("/admin")
             res.redirect("/login")
         }
     })
+    .post((req, res) => {
+        const question = req.body.questionName
+        const option1 = req.body.option1
+        const option2 = req.body.option2
+        const option3 = req.body.option3
+        const option4 = req.body.option4
 
+
+        User.findByIdAndUpdate(req.user.id, { $push: { question: question, answer: req.body.option1 } }, (err) => {
+            if (err) {
+                console.log(err);
+            }
+            else {
+                res.render("admin")
+
+
+            }
+        })
+    })
 app.get("/", (req, res) => {
-    res.send("<h1>Hello world</h1>")
+    res.render("login")
 })
 app.listen(port, () => {
     console.log("Server started on port 3000");
-});
+})

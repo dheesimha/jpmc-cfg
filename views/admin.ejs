@@ -21,17 +21,19 @@
   <title>Enter ques</title>
 </head>
 
-<body style="background-color: cyan;">
+<body style="background-color: black;">
 
   <div class="container">
+    <h1 style="color:white">Frame questions</h1>
     <div class="card my-3 bg-primary">
 
       <div class="card-body my-2">
-        <h5 class="card-title">Enter Ques</h5>
-        <div class="mb-3">
-          <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div>
+        <form action="/admin" method="POST">
+          <h5 class="card-title ">Enter the Question</h5>
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+            <textarea class="form-control" name="questionName" id="exampleFormControlTextarea1" rows="2"></textarea>
+          </div>
 
       </div>
 
@@ -43,22 +45,22 @@
         <p>Option 1</p>
         <div class="mb-3">
           <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <textarea class="form-control option1" id="exampleFormControlTextarea1" name="option1" rows="2"></textarea>
         </div>
         <p>Option 2</p>
         <div class="mb-3">
           <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <textarea class="form-control option2" name="option2" id="exampleFormControlTextarea1" rows="2"></textarea>
         </div>
         <p>Option 3</p>
         <div class="mb-3">
           <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <textarea class="form-control option3" name="option3" id="exampleFormControlTextarea1" rows="2"></textarea>
         </div>
         <p>Option 4</p>
         <div class="mb-3">
           <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <textarea class="form-control option4" name="option4" id="exampleFormControlTextarea1" rows="2"></textarea>
         </div>
 
 
@@ -72,19 +74,19 @@
         <div class="mx-auto row">
           <h6>Enter correct option</h6>
           <div class="form-check form-check-inline mb-0 mx-auto col-sm-2">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+            <input class="form-check-input" type="radio" name="option1" id="option1" value="option1" />
             <label class="form-check-label" for="maleGender"> Option 1</label>
           </div>
           <div class="form-check form-check-inline mb-0 mx-auto col-sm-2">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+            <input class="form-check-input" type="radio" name="option2" id="option2" value="option2" />
             <label class="form-check-label" for="maleGender">Option 2</label>
           </div>
           <div class="form-check form-check-inline mb-0 mx-auto col-sm-2">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+            <input class="form-check-input" type="radio" name="option3" id="option3" value="option3" />
             <label class="form-check-label" for="maleGender">Option 3</label>
           </div>
           <div class="form-check form-check-inline mb-0 mx-auto col-sm-2">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+            <input class="form-check-input" type="radio" name="option4" id="option4" value="option4" />
             <label class="form-check-label" for="maleGender">Option 4</label>
           </div>
 
@@ -93,8 +95,8 @@
       </div>
 
     </div>
-    <button class="btn btn-lg btn-success col-md-12 my-3">Submit</button>
-
+    <button class="btn btn-lg btn-success col-md-12 my-3" type="submit" value="submit">Submit</button>
+    </form>
   </div>
 
 </body>
