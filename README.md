@@ -21,5 +21,3 @@
 2) To make the user experience engaging we have gamified the website through which users can learn about various topics and educate themselves without even realizing it.
 
 
-### UI Screenshots
-
